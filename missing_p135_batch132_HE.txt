@@ -1,0 +1,12 @@
+/n/files/HiTS/lsp-data/cycif-production/135-Recurrent-vs-non-recurrent-melanoma/p135_batch132_HE/LSP17553@20230602_171737_035491/*.ome.tif
+/n/files/HiTS/lsp-data/cycif-production/135-Recurrent-vs-non-recurrent-melanoma/p135_batch132_HE/LSP17557@20230602_171807_273436/*.ome.tif
+/n/files/HiTS/lsp-data/cycif-production/135-Recurrent-vs-non-recurrent-melanoma/p135_batch132_HE/LSP17561@20230602_171835_749082/*.ome.tif
+/n/files/HiTS/lsp-data/cycif-production/135-Recurrent-vs-non-recurrent-melanoma/p135_batch132_HE/LSP17565@20230602_171910_495308/*.ome.tif
+/n/files/HiTS/lsp-data/cycif-production/135-Recurrent-vs-non-recurrent-melanoma/p135_batch132_HE/LSP17569@20230602_171938_681470/*.ome.tif
+/n/files/HiTS/lsp-data/cycif-production/135-Recurrent-vs-non-recurrent-melanoma/p135_batch132_HE/LSP17573@20230602_172005_240040/*.ome.tif
+/n/files/HiTS/lsp-data/cycif-production/135-Recurrent-vs-non-recurrent-melanoma/p135_batch132_HE/LSP17577@20230602_172030_494667/*.ome.tif
+/n/files/HiTS/lsp-data/cycif-production/135-Recurrent-vs-non-recurrent-melanoma/p135_batch132_HE/LSP17581@20230602_172059_557130/*.ome.tif
+/n/files/HiTS/lsp-data/cycif-production/135-Recurrent-vs-non-recurrent-melanoma/p135_batch132_HE/LSP17585@20230602_172130_116083/*.ome.tif
+/n/files/HiTS/lsp-data/cycif-production/135-Recurrent-vs-non-recurrent-melanoma/p135_batch132_HE/LSP17589@20230602_172202_282844/*.ome.tif
+/n/files/HiTS/lsp-data/cycif-production/135-Recurrent-vs-non-recurrent-melanoma/p135_batch132_HE/LSP17593@20230602_172230_659199/*.ome.tif
+/n/files/HiTS/lsp-data/cycif-production/135-Recurrent-vs-non-recurrent-melanoma/p135_batch132_HE/LSP17597@20230602_172306_581574/*.ome.tif

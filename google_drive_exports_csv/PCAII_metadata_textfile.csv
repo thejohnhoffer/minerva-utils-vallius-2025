@@ -1,0 +1,192 @@
+Melanoma type,case-block,Assay Type,Species,Sex,Age at Diagnosis,Primary Diagnosis,Prior Melanoma,Site of resection of Biopsy,Tumor Grade,Stage (AJCC 8th Edition),TIL Response,depth of invasion (mm),procedure,Fixative Type,Microscope,Objective,
+Early Melanoma,MEL14-A3,H&E,Human,M,53,superficial spreading,N,right lower back,III/IV,T2a,"present, brisk",1.1,excision,FFPE,Rarecyte HT14,20×/0.75 NA objective with no pixel binning,MEL14
+Early Melanoma,MEL15-A1,H&E,Human,F,83,superficial spreading,N,right upper arm,IV,T1a/T2b,"present, brisk",0.7,shave,FFPE,Rarecyte HT15,20×/0.75 NA objective with no pixel binning,MEL15
+Early Melanoma,MEL16-A6,H&E,Human,M,77,superficial spreading,N,right upper neck,IV,,"present, brisk",0.5,excision,FFPE,Rarecyte HT16,20×/0.75 NA objective with no pixel binning,MEL16
+Early Melanoma,MEL17-A1,H&E,Human,F,31,superficial spreading,Y,right lateral thigh,III ,T1a ,"present, brisk",0.6,punch,FFPE,Rarecyte HT17,20×/0.75 NA objective with no pixel binning,MEL17
+Early Melanoma,MEL18-A2,H&E,Human,M,25,superficial spreading,N,left neck,IV,T2b,"present, brisk",1.3,shave,FFPE,Rarecyte HT18,20×/0.75 NA objective with no pixel binning,MEL18
+Early Melanoma,MEL19-A1,H&E,Human,F,27,superficial spreading,N,left poteromedial upper arm,III,T2a,"present, brisk",1.1,shave,FFPE,Rarecyte HT19,20×/0.75 NA objective with no pixel binning,MEL19
+Early Melanoma,MEL20-B1,H&E,Human,M,80,unclassified,N,left forearm,IV,T3a,"present, brisk",2,punch,FFPE,Rarecyte HT20,20×/0.75 NA objective with no pixel binning,MEL20
+Early Melanoma,MEL21-A1,H&E,Human,M,64,superficial spreading,N,right lower leg,IV,T1a,"present, brisk",0.7,shave,FFPE,Rarecyte HT21,20×/0.75 NA objective with no pixel binning,MEL21
+Early Melanoma,MEL22-A4,H&E,Human,F,62,superficial spreading,Y,left chin,IV,T2a,"present, brisk",1.5,excision,FFPE,Rarecyte HT22,20×/0.75 NA objective with no pixel binning,MEL22
+Early Melanoma,MEL23-A2,H&E,Human,M,60,superficial spreading,N,left lateral abdomen ,IV,T1b,"present, brisk",1,shave,FFPE,Rarecyte HT23,20×/0.75 NA objective with no pixel binning,MEL23
+Early Melanoma,MEL24-A1,H&E,Human,M,73,unclassified,N,right upper arm,IV,T2a,"present, brisk",1.3,shave,FFPE,Rarecyte HT24,20×/0.75 NA objective with no pixel binning,MEL24
+Early Melanoma,MEL25-A1,H&E,Human,M,48,superficial spreading,Y,left upper dorsal arm,IV,T1b/T2a,"present, brisk",1,shave,FFPE,Rarecyte HT25,20×/0.75 NA objective with no pixel binning,MEL25
+Early Melanoma,MEL26-A1,H&E,Human,F,61,unclassified,N,right anterior thigh,III,T1b,"present, brisk",0.9,punch,FFPE,Rarecyte HT26,20×/0.75 NA objective with no pixel binning,MEL26
+Early Melanoma,MEL27-A3,H&E,Human,F,66,superficial spreading,N,left flank,IV,T2a,"present, brisk",1.3,excision,FFPE,Rarecyte HT27,20×/0.75 NA objective with no pixel binning,MEL27
+Early Melanoma,MEL28-A1,H&E,Human,M,62,melanoma in situ,Y,right lower back,III,T4a,N/A,N/A,punch,FFPE,Rarecyte HT28,20×/0.75 NA objective with no pixel binning,MEL28
+Early Melanoma,MEL29-A1,H&E,Human,F,56,melanoma in situ,Y,left anterior shin,,,N/A,N/A,punch,FFPE,Rarecyte HT29,20×/0.75 NA objective with no pixel binning,MEL29
+Early Melanoma,MEL30-A1,H&E,Human,F,47,superficial spreading,Y,left dorsal upper arm,IV,T1b,"present, nonbrisk",0.9,punch,FFPE,Rarecyte HT30,20×/0.75 NA objective with no pixel binning,MEL30
+Early Melanoma,MEL31-A1,H&E,Human,M,57,melanoma in situ,N,left superior forehead,,,N/A,N/A,punch,FFPE,Rarecyte HT31,20×/0.75 NA objective with no pixel binning,MEL31
+Early Melanoma,MEL32-B3,H&E,Human,M,71,melanoma in situ,N,left midline spine,,,N/A,N/A,excision,FFPE,Rarecyte HT32,20×/0.75 NA objective with no pixel binning,MEL32
+Early Melanoma,MEL33-A2,H&E,Human,F,63,malignant melanoma ,N,left thigh,III,T1a,N/A,N/A,shave,FFPE,Rarecyte HT33,20×/0.75 NA objective with no pixel binning,MEL33
+Early Melanoma,MEL34-A1,H&E,Human,M,70,melanoma in situ,N,left mid back ,,,N/A,N/A,shave,FFPE,Rarecyte HT34,20×/0.75 NA objective with no pixel binning,MEL34
+Early Melanoma,MEL35-C2,H&E,Human,M,85,melanoma in situ,N,left clavicle,,,N/A,N/A,punch,FFPE,Rarecyte HT35,20×/0.75 NA objective with no pixel binning,MEL35
+Early Melanoma,MEL36 A1,H&E,Human,M,77,superficial spreading,N,mid upper back,III/IV,,absent,0.4,shave,FFPE,Rarecyte HT36,20×/0.75 NA objective with no pixel binning,MEL36 A1
+Early Melanoma,MEL36 A2,H&E,Human,M,77,superficial spreading,N,mid upper back,III/IV,,absent,0.4,shave,FFPE,Rarecyte HT37,20×/0.75 NA objective with no pixel binning,MEL36 A2
+Early Melanoma,MEL37-A3,H&E,Human,F,36,melanoma in situ,N,right forearm,,,N/A,,excision,FFPE,Rarecyte HT38,20×/0.75 NA objective with no pixel binning,MEL37
+Early Melanoma,MEL38-A3,H&E,Human,M,42,superficial spreading,Y,left abdomen,IV,T1a,"present, nonbrisk",0.7,excision,FFPE,Rarecyte HT39,20×/0.75 NA objective with no pixel binning,MEL38
+Early Melanoma,MEL39-A2,H&E,Human,M,36,Severely atypical superficial lentiginous compound spindle cell melanocytic proliferation with marked pigment incontinence,N,right upper arm,,,N/A,,shave,FFPE,Rarecyte HT40,20×/0.75 NA objective with no pixel binning,MEL39
+Early Melanoma,MEL40-A1,H&E,Human,M,66,superficial spreading,N,left anterior shoulder,II,T1a,"present, nonbrisk",0.6,shave,FFPE,Rarecyte HT41,20×/0.75 NA objective with no pixel binning,MEL40
+Early Melanoma,MEL41-A1,H&E,Human,F,47,superficial spreading,Y,right lateral thigh,IV,T1b,"present, nonbrisk",0.8,shave,FFPE,Rarecyte HT42,20×/0.75 NA objective with no pixel binning,MEL41
+Early Melanoma,MEL42-A2,H&E,Human,F,64,superficial spreading,N,mid back,IV,T1a,"present, nonbrisk",0.7,shave,FFPE,Rarecyte HT43,20×/0.75 NA objective with no pixel binning,MEL42
+Early Melanoma,MEL43-A1,H&E,Human,F,35,superficial spreading,N,left shoulder,III/IV,T1a,"present, nonbrisk",0.4,shave,FFPE,Rarecyte HT44,20×/0.75 NA objective with no pixel binning,MEL43
+Early Melanoma,MEL44-B1,H&E,Human,F,56,superficial spreading,N,right lateral lower leg,III,T1b,"present, nonbrisk",0.8,shave,FFPE,Rarecyte HT45,20×/0.75 NA objective with no pixel binning,MEL44
+Early Melanoma,MEL45-A1,H&E,Human,M,64,superficial spreading,Y,left shoulder,IV,T2a,"present, nonbrisk",1.1,shave,FFPE,Rarecyte HT46,20×/0.75 NA objective with no pixel binning,MEL45
+Early Melanoma,MEL47-A1,H&E,Human,M,66,superficial spreading,N,left distal upper arm,IV,T2a,"present, nonbrisk",1.6,shave,FFPE,Rarecyte HT47,20×/0.75 NA objective with no pixel binning,MEL47
+Early Melanoma,MEL48-B2,H&E,Human,M,68,superficial spreading,N,left posterior neck,IV,T2a,"present, nonbrisk",1.5,punch,FFPE,Rarecyte HT48,20×/0.75 NA objective with no pixel binning,MEL48
+Early Melanoma,MEL49-A1,H&E,Human,M,64,superficial spreading,Y,left posterior neck,III/IV,T1b,"present, nonbrisk",0.9,punch,FFPE,Rarecyte HT49,20×/0.75 NA objective with no pixel binning,MEL49
+Early Melanoma,MEL52-A1,H&E,Human,F,44,superficial spreading,N,left dorsal upper arm,IV,T1a,"present, nonbrisk",1,shave,FFPE,Rarecyte HT51,20×/0.75 NA objective with no pixel binning,MEL52
+Early Melanoma,MEL53-A2,H&E,Human,F,54,superficial spreading,N,left upper back,IV,T1b,"present, nonbrisk",0.6,punch,FFPE,Rarecyte HT52,20×/0.75 NA objective with no pixel binning,MEL53
+Early Melanoma,MEL54-A3,H&E,Human,M,62,superficial spreading,N,left flank,IV,T2a,"present, nonbrisk",0.8,shave,FFPE,Rarecyte HT53,20×/0.75 NA objective with no pixel binning,MEL54
+Early Melanoma,MEL55 A2,H&E,Human,F,93,superficial spreading,N,left posterior shoulder,IV,T3b,"present, nonbrisk",1.8,excision,FFPE,Rarecyte HT54,20×/0.75 NA objective with no pixel binning,MEL55 A2
+Early Melanoma,MEL56-A1,H&E,Human,M,49,unclassified,Y,left temple,IV,T1a,"present, nonbrisk",3.8,punch,FFPE,Rarecyte HT55,20×/0.75 NA objective with no pixel binning,MEL56
+Early Melanoma,MEL58-A3,H&E,Human,F,31,superficial spreading,N,right posterior shouldr,IV,T3a,"present, nonbrisk",0.6,punch,FFPE,Rarecyte HT56,20×/0.75 NA objective with no pixel binning,MEL58
+Early Melanoma,MEL59-A1,H&E,Human,F,68,superficial spreading,N,right calf,IV,T2a/T2b,"present, nonbrisk",3.8,scoop shave,FFPE,Rarecyte HT57,20×/0.75 NA objective with no pixel binning,MEL59
+Early Melanoma,MEL60-A1,H&E,Human,M,85,superficial spreading,Y,superior forehead,IV,T2a,"present, nonbrisk",1.9,punch,FFPE,Rarecyte HT58,20×/0.75 NA objective with no pixel binning,MEL60
+Early Melanoma,MEL61-A4,H&E,Human,F,66,superficial spreading,Y,right medial proximal shin,III/IV,T1a,"present, nonbrisk",0.6,punch,FFPE,Rarecyte HT59,20×/0.75 NA objective with no pixel binning,MEL61
+Early Melanoma,MEL62-B1,H&E,Human,F,93,superficial spreading,N,right posterior upper arm,IV,T2a,"present, nonbrisk",0.5,excision,FFPE,Rarecyte HT60,20×/0.75 NA objective with no pixel binning,MEL62
+Early Melanoma,MEL63-A1,H&E,Human,M,49,superficial spreading,N,left temple,IV,T1a,"present, nonbrisk",0.9,punch,FFPE,Rarecyte HT61,20×/0.75 NA objective with no pixel binning,MEL63
+Early Melanoma,MEL64-A1,H&E,Human,F,55,superficial spreading,N,right forearm,IV,T1b,N/A,0.5,punch,FFPE,Rarecyte HT62,20×/0.75 NA objective with no pixel binning,MEL64
+Early Melanoma,MEL65-A1,H&E,Human,F,55,superficial spreading,Y,left thigh,IV,T2a,"present, nonbrisk",1,punch,FFPE,Rarecyte HT63,20×/0.75 NA objective with no pixel binning,MEL65
+Early Melanoma,MEL66-A1,H&E,Human,F,72,superficial spreading,Y,left posterior upper arm,III,,"present, nonbrisk",1.3,punch,FFPE,Rarecyte HT64,20×/0.75 NA objective with no pixel binning,MEL66
+Early Melanoma,MEL67-A1,H&E,Human,M,64,superficial spreading,N,right scalp,III,T1a,"present, nonbrisk",0.5,punch,FFPE,Rarecyte HT65,20×/0.75 NA objective with no pixel binning,MEL67
+Early Melanoma,MEL68 A1,H&E,Human,F,64,superficial spreading,Y,right upper arm,IV,,"present, nonbrisk",0.4,punch,FFPE,Rarecyte HT66,20×/0.75 NA objective with no pixel binning,MEL68 A1
+Early Melanoma,MEL68 B1,H&E,Human,M,64,melanoma in situ,Y,central neck,IV,T2a,N/A,,punch,FFPE,Rarecyte HT67,20×/0.75 NA objective with no pixel binning,MEL68 B1
+Early Melanoma,MEL69-A1,H&E,Human,M,38,superficial spreading,N,left posterior shoulder,IV,T2a,"present, nonbrisk",1.1,punch,FFPE,Rarecyte HT68,20×/0.75 NA objective with no pixel binning,MEL69
+Early Melanoma,MEL50-A3,H&E,Human,F,38,superficial spreading,N,left abdomen,IV,,"present, nonbrisk",0.64,excision,FFPE,Rarecyte HT50,20×/0.75 NA objective with no pixel binning,MEL50
+Stage II Melanoma,MEL70-A4,H&E,Human,F,74,N/A,N/A,N/A,N/A,2C,non brisk,15,N/A,FFPE,Rarecyte HT70,20×/0.75 NA objective with no pixel binning,MEL70
+Stage II Melanoma,MEL71,H&E,Human,M,73,N/A,N/A,N/A,N/A,2C,non brisk,7,N/A,FFPE,Rarecyte HT71,20×/0.75 NA objective with no pixel binning,MEL71
+Stage II Melanoma,MEL72,H&E,Human,M,73,N/A,N/A,N/A,N/A,2B,non brisk,16,N/A,FFPE,Rarecyte HT72,20×/0.75 NA objective with no pixel binning,MEL72
+Stage II Melanoma,MEL73-E11,H&E,Human,F,52,N/A,N/A,N/A,N/A,2C,brisk,2.7,N/A,FFPE,Rarecyte HT73,20×/0.75 NA objective with no pixel binning,MEL73
+Stage II Melanoma,MEL74-B7,H&E,Human,F,78,N/A,N/A,N/A,N/A,2C,non brisk,5.4,N/A,FFPE,Rarecyte HT74,20×/0.75 NA objective with no pixel binning,MEL74
+Stage II Melanoma,MEL75-A3,H&E,Human,M,86,N/A,N/A,N/A,N/A,2C,absent,4.2,N/A,FFPE,Rarecyte HT75,20×/0.75 NA objective with no pixel binning,MEL75
+Stage II Melanoma,MEL76-C10,H&E,Human,M,76,N/A,N/A,N/A,N/A,2A,non brisk,3.2,N/A,FFPE,Rarecyte HT76,20×/0.75 NA objective with no pixel binning,MEL76
+Stage II Melanoma,MEL78-A4,H&E,Human,F,84,N/A,N/A,N/A,N/A,2A,non brisk,2.5,N/A,FFPE,Rarecyte HT78,20×/0.75 NA objective with no pixel binning,MEL78
+Stage II Melanoma,MEL81-B5,H&E,Human,F,55,N/A,N/A,N/A,N/A,2A,non brisk,2.2,N/A,FFPE,Rarecyte HT81,20×/0.75 NA objective with no pixel binning,MEL81
+Stage II Melanoma,MEL82-D10,H&E,Human,M,74,N/A,N/A,N/A,N/A,2B,non brisk,9,N/A,FFPE,Rarecyte HT82,20×/0.75 NA objective with no pixel binning,MEL82
+Stage II Melanoma,MEL83-A11,H&E,Human,M,68,N/A,N/A,N/A,N/A,2B,non brisk,4.8,N/A,FFPE,Rarecyte HT83,20×/0.75 NA objective with no pixel binning,MEL83
+Stage II Melanoma,MEL84-A3,H&E,Human,M,81,N/A,N/A,N/A,N/A,2A,non brisk,3.2,N/A,FFPE,Rarecyte HT84,20×/0.75 NA objective with no pixel binning,MEL84
+Stage II Melanoma,MEL85/MEL86-A1/A1,H&E,Human,"F , F","70, 64",N/A,N/A,N/A,N/A,"2A, 2A",non brisk,"2.4, 1.8",N/A,FFPE,Rarecyte HT85,20×/0.75 NA objective with no pixel binning,"MEL85, MEL86"
+Early Melanoma,MEL14-A3,Tumor Intrinsic CycIF Panel,Human,M,53,superficial spreading,N,right lower back,III/IV,T2a,"present, brisk",1.1,excision,FFPE,Rarecyte HT14,20×/0.75 NA objective with no pixel binning,MEL14
+Early Melanoma,MEL15-A1,Tumor Intrinsic CycIF Panel,Human,F,83,superficial spreading,N,right upper arm,IV,T1a/T2b,"present, brisk",0.7,shave,FFPE,Rarecyte HT15,20×/0.75 NA objective with no pixel binning,MEL15
+Early Melanoma,MEL16-A6,Tumor Intrinsic CycIF Panel,Human,M,77,superficial spreading,N,right upper neck,IV,,"present, brisk",0.5,excision,FFPE,Rarecyte HT16,20×/0.75 NA objective with no pixel binning,MEL16
+Early Melanoma,MEL17-A1,Tumor Intrinsic CycIF Panel,Human,F,31,superficial spreading,Y,right lateral thigh,III ,T1a ,"present, brisk",0.6,punch,FFPE,Rarecyte HT17,20×/0.75 NA objective with no pixel binning,MEL17
+Early Melanoma,MEL18-A2,Tumor Intrinsic CycIF Panel,Human,M,25,superficial spreading,N,left neck,IV,T2b,"present, brisk",1.3,shave,FFPE,Rarecyte HT18,20×/0.75 NA objective with no pixel binning,MEL18
+Early Melanoma,MEL19-A1,Tumor Intrinsic CycIF Panel,Human,F,27,superficial spreading,N,left poteromedial upper arm,III,T2a,"present, brisk",1.1,shave,FFPE,Rarecyte HT19,20×/0.75 NA objective with no pixel binning,MEL19
+Early Melanoma,MEL20-B1,Tumor Intrinsic CycIF Panel,Human,M,80,unclassified,N,left forearm,IV,T3a,"present, brisk",2,punch,FFPE,Rarecyte HT20,20×/0.75 NA objective with no pixel binning,MEL20
+Early Melanoma,MEL21-A1,Tumor Intrinsic CycIF Panel,Human,M,64,superficial spreading,N,right lower leg,IV,T1a,"present, brisk",0.7,shave,FFPE,Rarecyte HT21,20×/0.75 NA objective with no pixel binning,MEL21
+Early Melanoma,MEL22-A4,Tumor Intrinsic CycIF Panel,Human,F,62,superficial spreading,Y,left chin,IV,T2a,"present, brisk",1.5,excision,FFPE,Rarecyte HT22,20×/0.75 NA objective with no pixel binning,MEL22
+Early Melanoma,MEL23-A2,Tumor Intrinsic CycIF Panel,Human,M,60,superficial spreading,N,left lateral abdomen ,IV,T1b,"present, brisk",1,shave,FFPE,Rarecyte HT23,20×/0.75 NA objective with no pixel binning,MEL23
+Early Melanoma,MEL24-A1,Tumor Intrinsic CycIF Panel,Human,M,73,unclassified,N,right upper arm,IV,T2a,"present, brisk",1.3,shave,FFPE,Rarecyte HT24,20×/0.75 NA objective with no pixel binning,MEL24
+Early Melanoma,MEL25-A1,Tumor Intrinsic CycIF Panel,Human,M,48,superficial spreading,Y,left upper dorsal arm,IV,T1b/T2a,"present, brisk",1,shave,FFPE,Rarecyte HT25,20×/0.75 NA objective with no pixel binning,MEL25
+Early Melanoma,MEL26-A1,Tumor Intrinsic CycIF Panel,Human,F,61,unclassified,N,right anterior thigh,III,T1b,"present, brisk",0.9,punch,FFPE,Rarecyte HT26,20×/0.75 NA objective with no pixel binning,MEL26
+Early Melanoma,MEL27-A3,Tumor Intrinsic CycIF Panel,Human,F,66,superficial spreading,N,left flank,IV,T2a,"present, brisk",1.3,excision,FFPE,Rarecyte HT27,20×/0.75 NA objective with no pixel binning,MEL27
+Early Melanoma,MEL28-A1,Tumor Intrinsic CycIF Panel,Human,M,62,melanoma in situ,Y,right lower back,III,T4a,N/A,N/A,punch,FFPE,Rarecyte HT28,20×/0.75 NA objective with no pixel binning,MEL28
+Early Melanoma,MEL29-A1,Tumor Intrinsic CycIF Panel,Human,F,56,melanoma in situ,Y,left anterior shin,,,N/A,N/A,punch,FFPE,Rarecyte HT29,20×/0.75 NA objective with no pixel binning,MEL29
+Early Melanoma,MEL30-A1,Tumor Intrinsic CycIF Panel,Human,F,47,superficial spreading,Y,left dorsal upper arm,IV,T1b,"present, nonbrisk",0.9,punch,FFPE,Rarecyte HT30,20×/0.75 NA objective with no pixel binning,MEL30
+Early Melanoma,MEL31-A1,Tumor Intrinsic CycIF Panel,Human,M,57,melanoma in situ,N,left superior forehead,,,N/A,N/A,punch,FFPE,Rarecyte HT31,20×/0.75 NA objective with no pixel binning,MEL31
+Early Melanoma,MEL32-B3,Tumor Intrinsic CycIF Panel,Human,M,71,melanoma in situ,N,left midline spine,,,N/A,N/A,excision,FFPE,Rarecyte HT32,20×/0.75 NA objective with no pixel binning,MEL32
+Early Melanoma,MEL33-A2,Tumor Intrinsic CycIF Panel,Human,F,63,malignant melanoma ,N,left thigh,III,T1a,N/A,N/A,shave,FFPE,Rarecyte HT33,20×/0.75 NA objective with no pixel binning,MEL33
+Early Melanoma,MEL34-A1,Tumor Intrinsic CycIF Panel,Human,M,70,melanoma in situ,N,left mid back ,,,N/A,N/A,shave,FFPE,Rarecyte HT34,20×/0.75 NA objective with no pixel binning,MEL34
+Early Melanoma,MEL35-C2,Tumor Intrinsic CycIF Panel,Human,M,85,melanoma in situ,N,left clavicle,,,N/A,N/A,punch,FFPE,Rarecyte HT35,20×/0.75 NA objective with no pixel binning,MEL35
+Early Melanoma,MEL36 A1,Tumor Intrinsic CycIF Panel,Human,M,77,superficial spreading,N,mid upper back,III/IV,,absent,0.4,shave,FFPE,Rarecyte HT36,20×/0.75 NA objective with no pixel binning,MEL36 A1
+Early Melanoma,MEL36 A2,Tumor Intrinsic CycIF Panel,Human,M,77,superficial spreading,N,mid upper back,III/IV,,absent,0.4,shave,FFPE,Rarecyte HT37,20×/0.75 NA objective with no pixel binning,MEL36 A2
+Early Melanoma,MEL37-A3,Tumor Intrinsic CycIF Panel,Human,F,36,melanoma in situ,N,right forearm,,,N/A,,excision,FFPE,Rarecyte HT38,20×/0.75 NA objective with no pixel binning,MEL37
+Early Melanoma,MEL38-A3,Tumor Intrinsic CycIF Panel,Human,M,42,superficial spreading,Y,left abdomen,IV,T1a,"present, nonbrisk",0.7,excision,FFPE,Rarecyte HT39,20×/0.75 NA objective with no pixel binning,MEL38
+Early Melanoma,MEL39-A2,Tumor Intrinsic CycIF Panel,Human,M,36,Severely atypical superficial lentiginous compound spindle cell melanocytic proliferation with marked pigment incontinence,N,right upper arm,,,N/A,,shave,FFPE,Rarecyte HT40,20×/0.75 NA objective with no pixel binning,MEL39
+Early Melanoma,MEL40-A1,Tumor Intrinsic CycIF Panel,Human,M,66,superficial spreading,N,left anterior shoulder,II,T1a,"present, nonbrisk",0.6,shave,FFPE,Rarecyte HT41,20×/0.75 NA objective with no pixel binning,MEL40
+Early Melanoma,MEL41-A1,Tumor Intrinsic CycIF Panel,Human,F,47,superficial spreading,Y,right lateral thigh,IV,T1b,"present, nonbrisk",0.8,shave,FFPE,Rarecyte HT42,20×/0.75 NA objective with no pixel binning,MEL41
+Early Melanoma,MEL42-A2,Tumor Intrinsic CycIF Panel,Human,F,64,superficial spreading,N,mid back,IV,T1a,"present, nonbrisk",0.7,shave,FFPE,Rarecyte HT43,20×/0.75 NA objective with no pixel binning,MEL42
+Early Melanoma,MEL43-A1,Tumor Intrinsic CycIF Panel,Human,F,35,superficial spreading,N,left shoulder,III/IV,T1a,"present, nonbrisk",0.4,shave,FFPE,Rarecyte HT44,20×/0.75 NA objective with no pixel binning,MEL43
+Early Melanoma,MEL44-B1,Tumor Intrinsic CycIF Panel,Human,F,56,superficial spreading,N,right lateral lower leg,III,T1b,"present, nonbrisk",0.8,shave,FFPE,Rarecyte HT45,20×/0.75 NA objective with no pixel binning,MEL44
+Early Melanoma,MEL45-A1,Tumor Intrinsic CycIF Panel,Human,M,64,superficial spreading,Y,left shoulder,IV,T2a,"present, nonbrisk",1.1,shave,FFPE,Rarecyte HT46,20×/0.75 NA objective with no pixel binning,MEL45
+Early Melanoma,MEL47-A1,Tumor Intrinsic CycIF Panel,Human,M,66,superficial spreading,N,left distal upper arm,IV,T2a,"present, nonbrisk",1.6,shave,FFPE,Rarecyte HT47,20×/0.75 NA objective with no pixel binning,MEL47
+Early Melanoma,MEL48-B2,Tumor Intrinsic CycIF Panel,Human,M,68,superficial spreading,N,left posterior neck,IV,T2a,"present, nonbrisk",1.5,punch,FFPE,Rarecyte HT48,20×/0.75 NA objective with no pixel binning,MEL48
+Early Melanoma,MEL49-A1,Tumor Intrinsic CycIF Panel,Human,M,64,superficial spreading,Y,left posterior neck,III/IV,T1b,"present, nonbrisk",0.9,punch,FFPE,Rarecyte HT49,20×/0.75 NA objective with no pixel binning,MEL49
+Early Melanoma,MEL52-A1,Tumor Intrinsic CycIF Panel,Human,F,44,superficial spreading,N,left dorsal upper arm,IV,T1a,"present, nonbrisk",1,shave,FFPE,Rarecyte HT51,20×/0.75 NA objective with no pixel binning,MEL52
+Early Melanoma,MEL53-A2,Tumor Intrinsic CycIF Panel,Human,F,54,superficial spreading,N,left upper back,IV,T1b,"present, nonbrisk",0.6,punch,FFPE,Rarecyte HT52,20×/0.75 NA objective with no pixel binning,MEL53
+Early Melanoma,MEL54-A3,Tumor Intrinsic CycIF Panel,Human,M,62,superficial spreading,N,left flank,IV,T2a,"present, nonbrisk",0.8,shave,FFPE,Rarecyte HT53,20×/0.75 NA objective with no pixel binning,MEL54
+Early Melanoma,MEL55 A2,Tumor Intrinsic CycIF Panel,Human,F,93,superficial spreading,N,left posterior shoulder,IV,T3b,"present, nonbrisk",1.8,excision,FFPE,Rarecyte HT54,20×/0.75 NA objective with no pixel binning,MEL55 A2
+Early Melanoma,MEL56-A1,Tumor Intrinsic CycIF Panel,Human,M,49,unclassified,Y,left temple,IV,T1a,"present, nonbrisk",3.8,punch,FFPE,Rarecyte HT55,20×/0.75 NA objective with no pixel binning,MEL56
+Early Melanoma,MEL58-A3,Tumor Intrinsic CycIF Panel,Human,F,31,superficial spreading,N,right posterior shouldr,IV,T3a,"present, nonbrisk",0.6,punch,FFPE,Rarecyte HT56,20×/0.75 NA objective with no pixel binning,MEL58
+Early Melanoma,MEL59-A1,Tumor Intrinsic CycIF Panel,Human,F,68,superficial spreading,N,right calf,IV,T2a/T2b,"present, nonbrisk",3.8,scoop shave,FFPE,Rarecyte HT57,20×/0.75 NA objective with no pixel binning,MEL59
+Early Melanoma,MEL60-A1,Tumor Intrinsic CycIF Panel,Human,M,85,superficial spreading,Y,superior forehead,IV,T2a,"present, nonbrisk",1.9,punch,FFPE,Rarecyte HT58,20×/0.75 NA objective with no pixel binning,MEL60
+Early Melanoma,MEL61-A4,Tumor Intrinsic CycIF Panel,Human,F,66,superficial spreading,Y,right medial proximal shin,III/IV,T1a,"present, nonbrisk",0.6,punch,FFPE,Rarecyte HT59,20×/0.75 NA objective with no pixel binning,MEL61
+Early Melanoma,MEL62-B1,Tumor Intrinsic CycIF Panel,Human,F,93,superficial spreading,N,right posterior upper arm,IV,T2a,"present, nonbrisk",0.5,excision,FFPE,Rarecyte HT60,20×/0.75 NA objective with no pixel binning,MEL62
+Early Melanoma,MEL63-A1,Tumor Intrinsic CycIF Panel,Human,M,49,superficial spreading,N,left temple,IV,T1a,"present, nonbrisk",0.9,punch,FFPE,Rarecyte HT61,20×/0.75 NA objective with no pixel binning,MEL63
+Early Melanoma,MEL64-A1,Tumor Intrinsic CycIF Panel,Human,F,55,superficial spreading,N,right forearm,IV,T1b,N/A,0.5,punch,FFPE,Rarecyte HT62,20×/0.75 NA objective with no pixel binning,MEL64
+Early Melanoma,MEL65-A1,Tumor Intrinsic CycIF Panel,Human,F,55,superficial spreading,Y,left thigh,IV,T2a,"present, nonbrisk",1,punch,FFPE,Rarecyte HT63,20×/0.75 NA objective with no pixel binning,MEL65
+Early Melanoma,MEL66-A1,Tumor Intrinsic CycIF Panel,Human,F,72,superficial spreading,Y,left posterior upper arm,III,,"present, nonbrisk",1.3,punch,FFPE,Rarecyte HT64,20×/0.75 NA objective with no pixel binning,MEL66
+Early Melanoma,MEL67-A1,Tumor Intrinsic CycIF Panel,Human,M,64,superficial spreading,N,right scalp,III,T1a,"present, nonbrisk",0.5,punch,FFPE,Rarecyte HT65,20×/0.75 NA objective with no pixel binning,MEL67
+Early Melanoma,MEL68 A1,Tumor Intrinsic CycIF Panel,Human,F,64,superficial spreading,Y,right upper arm,IV,,"present, nonbrisk",0.4,punch,FFPE,Rarecyte HT66,20×/0.75 NA objective with no pixel binning,MEL68 A1
+Early Melanoma,MEL68 B1,Tumor Intrinsic CycIF Panel,Human,M,64,melanoma in situ,Y,central neck,IV,T2a,N/A,,punch,FFPE,Rarecyte HT67,20×/0.75 NA objective with no pixel binning,MEL68 B1
+Early Melanoma,MEL69-A1,Tumor Intrinsic CycIF Panel,Human,M,38,superficial spreading,N,left posterior shoulder,IV,T2a,"present, nonbrisk",1.1,punch,FFPE,Rarecyte HT68,20×/0.75 NA objective with no pixel binning,MEL69
+Early Melanoma,MEL50-A3,Tumor Intrinsic CycIF Panel,Human,F,38,superficial spreading,N,left abdomen,IV,,"present, nonbrisk",0.64,excision,FFPE,Rarecyte HT50,20×/0.75 NA objective with no pixel binning,MEL50
+Stage II Melanoma,MEL70-A4,Tumor Intrinsic CycIF Panel,Human,F,74,N/A,N/A,N/A,N/A,2C,non brisk,15,N/A,FFPE,Rarecyte HT70,20×/0.75 NA objective with no pixel binning,MEL70
+Stage II Melanoma,MEL71,Tumor Intrinsic CycIF Panel,Human,M,73,N/A,N/A,N/A,N/A,2C,non brisk,7,N/A,FFPE,Rarecyte HT71,20×/0.75 NA objective with no pixel binning,MEL71
+Stage II Melanoma,MEL72,Tumor Intrinsic CycIF Panel,Human,M,73,N/A,N/A,N/A,N/A,2B,non brisk,16,N/A,FFPE,Rarecyte HT72,20×/0.75 NA objective with no pixel binning,MEL72
+Stage II Melanoma,MEL73-E11,Tumor Intrinsic CycIF Panel,Human,F,52,N/A,N/A,N/A,N/A,2C,brisk,2.7,N/A,FFPE,Rarecyte HT73,20×/0.75 NA objective with no pixel binning,MEL73
+Stage II Melanoma,MEL74-B7,Tumor Intrinsic CycIF Panel,Human,F,78,N/A,N/A,N/A,N/A,2C,non brisk,5.4,N/A,FFPE,Rarecyte HT74,20×/0.75 NA objective with no pixel binning,MEL74
+Stage II Melanoma,MEL75-A3,Tumor Intrinsic CycIF Panel,Human,M,86,N/A,N/A,N/A,N/A,2C,absent,4.2,N/A,FFPE,Rarecyte HT75,20×/0.75 NA objective with no pixel binning,MEL75
+Stage II Melanoma,MEL76-C10,Tumor Intrinsic CycIF Panel,Human,M,76,N/A,N/A,N/A,N/A,2A,non brisk,3.2,N/A,FFPE,Rarecyte HT76,20×/0.75 NA objective with no pixel binning,MEL76
+Stage II Melanoma,MEL78-A4,Tumor Intrinsic CycIF Panel,Human,F,84,N/A,N/A,N/A,N/A,2A,non brisk,2.5,N/A,FFPE,Rarecyte HT78,20×/0.75 NA objective with no pixel binning,MEL78
+Stage II Melanoma,MEL81-B5,Tumor Intrinsic CycIF Panel,Human,F,55,N/A,N/A,N/A,N/A,2A,non brisk,2.2,N/A,FFPE,Rarecyte HT81,20×/0.75 NA objective with no pixel binning,MEL81
+Stage II Melanoma,MEL82-D10,Tumor Intrinsic CycIF Panel,Human,M,74,N/A,N/A,N/A,N/A,2B,non brisk,9,N/A,FFPE,Rarecyte HT82,20×/0.75 NA objective with no pixel binning,MEL82
+Stage II Melanoma,MEL83-A11,Tumor Intrinsic CycIF Panel,Human,M,68,N/A,N/A,N/A,N/A,2B,non brisk,4.8,N/A,FFPE,Rarecyte HT83,20×/0.75 NA objective with no pixel binning,MEL83
+Stage II Melanoma,MEL84-A3,Tumor Intrinsic CycIF Panel,Human,M,81,N/A,N/A,N/A,N/A,2A,non brisk,3.2,N/A,FFPE,Rarecyte HT84,20×/0.75 NA objective with no pixel binning,MEL84
+Stage II Melanoma,MEL85/MEL86-A1/A1,Tumor Intrinsic CycIF Panel,Human,"F , F","70, 64",N/A,N/A,N/A,N/A,"2A, 2A",non brisk,"2.4, 1.8",N/A,FFPE,Rarecyte HT85,20×/0.75 NA objective with no pixel binning,"MEL85, MEL86"
+Early Melanoma,MEL14-A3,Cell Lineage CyCIF Panel,Human,M,53,superficial spreading,N,right lower back,III/IV,T2a,"present, brisk",1.1,excision,FFPE,Rarecyte HT14,20×/0.75 NA objective with no pixel binning,MEL14
+Early Melanoma,MEL15-A1,Cell Lineage CyCIF Panel,Human,F,83,superficial spreading,N,right upper arm,IV,T1a/T2b,"present, brisk",0.7,shave,FFPE,Rarecyte HT15,20×/0.75 NA objective with no pixel binning,MEL15
+Early Melanoma,MEL16-A6,Cell Lineage CyCIF Panel,Human,M,77,superficial spreading,N,right upper neck,IV,,"present, brisk",0.5,excision,FFPE,Rarecyte HT16,20×/0.75 NA objective with no pixel binning,MEL16
+Early Melanoma,MEL17-A1,Cell Lineage CyCIF Panel,Human,F,31,superficial spreading,Y,right lateral thigh,III ,T1a ,"present, brisk",0.6,punch,FFPE,Rarecyte HT17,20×/0.75 NA objective with no pixel binning,MEL17
+Early Melanoma,MEL18-A2,Cell Lineage CyCIF Panel,Human,M,25,superficial spreading,N,left neck,IV,T2b,"present, brisk",1.3,shave,FFPE,Rarecyte HT18,20×/0.75 NA objective with no pixel binning,MEL18
+Early Melanoma,MEL19-A1,Cell Lineage CyCIF Panel,Human,F,27,superficial spreading,N,left poteromedial upper arm,III,T2a,"present, brisk",1.1,shave,FFPE,Rarecyte HT19,20×/0.75 NA objective with no pixel binning,MEL19
+Early Melanoma,MEL20-B1,Cell Lineage CyCIF Panel,Human,M,80,unclassified,N,left forearm,IV,T3a,"present, brisk",2,punch,FFPE,Rarecyte HT20,20×/0.75 NA objective with no pixel binning,MEL20
+Early Melanoma,MEL21-A1,Cell Lineage CyCIF Panel,Human,M,64,superficial spreading,N,right lower leg,IV,T1a,"present, brisk",0.7,shave,FFPE,Rarecyte HT21,20×/0.75 NA objective with no pixel binning,MEL21
+Early Melanoma,MEL22-A4,Cell Lineage CyCIF Panel,Human,F,62,superficial spreading,Y,left chin,IV,T2a,"present, brisk",1.5,excision,FFPE,Rarecyte HT22,20×/0.75 NA objective with no pixel binning,MEL22
+Early Melanoma,MEL23-A2,Cell Lineage CyCIF Panel,Human,M,60,superficial spreading,N,left lateral abdomen ,IV,T1b,"present, brisk",1,shave,FFPE,Rarecyte HT23,20×/0.75 NA objective with no pixel binning,MEL23
+Early Melanoma,MEL24-A1,Cell Lineage CyCIF Panel,Human,M,73,unclassified,N,right upper arm,IV,T2a,"present, brisk",1.3,shave,FFPE,Rarecyte HT24,20×/0.75 NA objective with no pixel binning,MEL24
+Early Melanoma,MEL25-A1,Cell Lineage CyCIF Panel,Human,M,48,superficial spreading,Y,left upper dorsal arm,IV,T1b/T2a,"present, brisk",1,shave,FFPE,Rarecyte HT25,20×/0.75 NA objective with no pixel binning,MEL25
+Early Melanoma,MEL26-A1,Cell Lineage CyCIF Panel,Human,F,61,unclassified,N,right anterior thigh,III,T1b,"present, brisk",0.9,punch,FFPE,Rarecyte HT26,20×/0.75 NA objective with no pixel binning,MEL26
+Early Melanoma,MEL27-A3,Cell Lineage CyCIF Panel,Human,F,66,superficial spreading,N,left flank,IV,T2a,"present, brisk",1.3,excision,FFPE,Rarecyte HT27,20×/0.75 NA objective with no pixel binning,MEL27
+Early Melanoma,MEL28-A1,Cell Lineage CyCIF Panel,Human,M,62,melanoma in situ,Y,right lower back,III,T4a,N/A,N/A,punch,FFPE,Rarecyte HT28,20×/0.75 NA objective with no pixel binning,MEL28
+Early Melanoma,MEL29-A1,Cell Lineage CyCIF Panel,Human,F,56,melanoma in situ,Y,left anterior shin,,,N/A,N/A,punch,FFPE,Rarecyte HT29,20×/0.75 NA objective with no pixel binning,MEL29
+Early Melanoma,MEL30-A1,Cell Lineage CyCIF Panel,Human,F,47,superficial spreading,Y,left dorsal upper arm,IV,T1b,"present, nonbrisk",0.9,punch,FFPE,Rarecyte HT30,20×/0.75 NA objective with no pixel binning,MEL30
+Early Melanoma,MEL31-A1,Cell Lineage CyCIF Panel,Human,M,57,melanoma in situ,N,left superior forehead,,,N/A,N/A,punch,FFPE,Rarecyte HT31,20×/0.75 NA objective with no pixel binning,MEL31
+Early Melanoma,MEL32-B3,Cell Lineage CyCIF Panel,Human,M,71,melanoma in situ,N,left midline spine,,,N/A,N/A,excision,FFPE,Rarecyte HT32,20×/0.75 NA objective with no pixel binning,MEL32
+Early Melanoma,MEL33-A2,Cell Lineage CyCIF Panel,Human,F,63,malignant melanoma ,N,left thigh,III,T1a,N/A,N/A,shave,FFPE,Rarecyte HT33,20×/0.75 NA objective with no pixel binning,MEL33
+Early Melanoma,MEL34-A1,Cell Lineage CyCIF Panel,Human,M,70,melanoma in situ,N,left mid back ,,,N/A,N/A,shave,FFPE,Rarecyte HT34,20×/0.75 NA objective with no pixel binning,MEL34
+Early Melanoma,MEL35-C2,Cell Lineage CyCIF Panel,Human,M,85,melanoma in situ,N,left clavicle,,,N/A,N/A,punch,FFPE,Rarecyte HT35,20×/0.75 NA objective with no pixel binning,MEL35
+Early Melanoma,MEL36 A1,Cell Lineage CyCIF Panel,Human,M,77,superficial spreading,N,mid upper back,III/IV,,absent,0.4,shave,FFPE,Rarecyte HT36,20×/0.75 NA objective with no pixel binning,MEL36 A1
+Early Melanoma,MEL36 A2,Cell Lineage CyCIF Panel,Human,M,77,superficial spreading,N,mid upper back,III/IV,,absent,0.4,shave,FFPE,Rarecyte HT37,20×/0.75 NA objective with no pixel binning,MEL36 A2
+Early Melanoma,MEL37-A3,Cell Lineage CyCIF Panel,Human,F,36,melanoma in situ,N,right forearm,,,N/A,,excision,FFPE,Rarecyte HT38,20×/0.75 NA objective with no pixel binning,MEL37
+Early Melanoma,MEL38-A3,Cell Lineage CyCIF Panel,Human,M,42,superficial spreading,Y,left abdomen,IV,T1a,"present, nonbrisk",0.7,excision,FFPE,Rarecyte HT39,20×/0.75 NA objective with no pixel binning,MEL38
+Early Melanoma,MEL39-A2,Cell Lineage CyCIF Panel,Human,M,36,Severely atypical superficial lentiginous compound spindle cell melanocytic proliferation with marked pigment incontinence,N,right upper arm,,,N/A,,shave,FFPE,Rarecyte HT40,20×/0.75 NA objective with no pixel binning,MEL39
+Early Melanoma,MEL40-A1,Cell Lineage CyCIF Panel,Human,M,66,superficial spreading,N,left anterior shoulder,II,T1a,"present, nonbrisk",0.6,shave,FFPE,Rarecyte HT41,20×/0.75 NA objective with no pixel binning,MEL40
+Early Melanoma,MEL41-A1,Cell Lineage CyCIF Panel,Human,F,47,superficial spreading,Y,right lateral thigh,IV,T1b,"present, nonbrisk",0.8,shave,FFPE,Rarecyte HT42,20×/0.75 NA objective with no pixel binning,MEL41
+Early Melanoma,MEL42-A2,Cell Lineage CyCIF Panel,Human,F,64,superficial spreading,N,mid back,IV,T1a,"present, nonbrisk",0.7,shave,FFPE,Rarecyte HT43,20×/0.75 NA objective with no pixel binning,MEL42
+Early Melanoma,MEL43-A1,Cell Lineage CyCIF Panel,Human,F,35,superficial spreading,N,left shoulder,III/IV,T1a,"present, nonbrisk",0.4,shave,FFPE,Rarecyte HT44,20×/0.75 NA objective with no pixel binning,MEL43
+Early Melanoma,MEL44-B1,Cell Lineage CyCIF Panel,Human,F,56,superficial spreading,N,right lateral lower leg,III,T1b,"present, nonbrisk",0.8,shave,FFPE,Rarecyte HT45,20×/0.75 NA objective with no pixel binning,MEL44
+Early Melanoma,MEL45-A1,Cell Lineage CyCIF Panel,Human,M,64,superficial spreading,Y,left shoulder,IV,T2a,"present, nonbrisk",1.1,shave,FFPE,Rarecyte HT46,20×/0.75 NA objective with no pixel binning,MEL45
+Early Melanoma,MEL47-A1,Cell Lineage CyCIF Panel,Human,M,66,superficial spreading,N,left distal upper arm,IV,T2a,"present, nonbrisk",1.6,shave,FFPE,Rarecyte HT47,20×/0.75 NA objective with no pixel binning,MEL47
+Early Melanoma,MEL48-B2,Cell Lineage CyCIF Panel,Human,M,68,superficial spreading,N,left posterior neck,IV,T2a,"present, nonbrisk",1.5,punch,FFPE,Rarecyte HT48,20×/0.75 NA objective with no pixel binning,MEL48
+Early Melanoma,MEL49-A1,Cell Lineage CyCIF Panel,Human,M,64,superficial spreading,Y,left posterior neck,III/IV,T1b,"present, nonbrisk",0.9,punch,FFPE,Rarecyte HT49,20×/0.75 NA objective with no pixel binning,MEL49
+Early Melanoma,MEL52-A1,Cell Lineage CyCIF Panel,Human,F,44,superficial spreading,N,left dorsal upper arm,IV,T1a,"present, nonbrisk",1,shave,FFPE,Rarecyte HT51,20×/0.75 NA objective with no pixel binning,MEL52
+Early Melanoma,MEL53-A2,Cell Lineage CyCIF Panel,Human,F,54,superficial spreading,N,left upper back,IV,T1b,"present, nonbrisk",0.6,punch,FFPE,Rarecyte HT52,20×/0.75 NA objective with no pixel binning,MEL53
+Early Melanoma,MEL54-A3,Cell Lineage CyCIF Panel,Human,M,62,superficial spreading,N,left flank,IV,T2a,"present, nonbrisk",0.8,shave,FFPE,Rarecyte HT53,20×/0.75 NA objective with no pixel binning,MEL54
+Early Melanoma,MEL55 A2,Cell Lineage CyCIF Panel,Human,F,93,superficial spreading,N,left posterior shoulder,IV,T3b,"present, nonbrisk",1.8,excision,FFPE,Rarecyte HT54,20×/0.75 NA objective with no pixel binning,MEL55 A2
+Early Melanoma,MEL56-A1,Cell Lineage CyCIF Panel,Human,M,49,unclassified,Y,left temple,IV,T1a,"present, nonbrisk",3.8,punch,FFPE,Rarecyte HT55,20×/0.75 NA objective with no pixel binning,MEL56
+Early Melanoma,MEL58-A3,Cell Lineage CyCIF Panel,Human,F,31,superficial spreading,N,right posterior shouldr,IV,T3a,"present, nonbrisk",0.6,punch,FFPE,Rarecyte HT56,20×/0.75 NA objective with no pixel binning,MEL58
+Early Melanoma,MEL59-A1,Cell Lineage CyCIF Panel,Human,F,68,superficial spreading,N,right calf,IV,T2a/T2b,"present, nonbrisk",3.8,scoop shave,FFPE,Rarecyte HT57,20×/0.75 NA objective with no pixel binning,MEL59
+Early Melanoma,MEL60-A1,Cell Lineage CyCIF Panel,Human,M,85,superficial spreading,Y,superior forehead,IV,T2a,"present, nonbrisk",1.9,punch,FFPE,Rarecyte HT58,20×/0.75 NA objective with no pixel binning,MEL60
+Early Melanoma,MEL61-A4,Cell Lineage CyCIF Panel,Human,F,66,superficial spreading,Y,right medial proximal shin,III/IV,T1a,"present, nonbrisk",0.6,punch,FFPE,Rarecyte HT59,20×/0.75 NA objective with no pixel binning,MEL61
+Early Melanoma,MEL62-B1,Cell Lineage CyCIF Panel,Human,F,93,superficial spreading,N,right posterior upper arm,IV,T2a,"present, nonbrisk",0.5,excision,FFPE,Rarecyte HT60,20×/0.75 NA objective with no pixel binning,MEL62
+Early Melanoma,MEL63-A1,Cell Lineage CyCIF Panel,Human,M,49,superficial spreading,N,left temple,IV,T1a,"present, nonbrisk",0.9,punch,FFPE,Rarecyte HT61,20×/0.75 NA objective with no pixel binning,MEL63
+Early Melanoma,MEL64-A1,Cell Lineage CyCIF Panel,Human,F,55,superficial spreading,N,right forearm,IV,T1b,N/A,0.5,punch,FFPE,Rarecyte HT62,20×/0.75 NA objective with no pixel binning,MEL64
+Early Melanoma,MEL65-A1,Cell Lineage CyCIF Panel,Human,F,55,superficial spreading,Y,left thigh,IV,T2a,"present, nonbrisk",1,punch,FFPE,Rarecyte HT63,20×/0.75 NA objective with no pixel binning,MEL65
+Early Melanoma,MEL66-A1,Cell Lineage CyCIF Panel,Human,F,72,superficial spreading,Y,left posterior upper arm,III,,"present, nonbrisk",1.3,punch,FFPE,Rarecyte HT64,20×/0.75 NA objective with no pixel binning,MEL66
+Early Melanoma,MEL67-A1,Cell Lineage CyCIF Panel,Human,M,64,superficial spreading,N,right scalp,III,T1a,"present, nonbrisk",0.5,punch,FFPE,Rarecyte HT65,20×/0.75 NA objective with no pixel binning,MEL67
+Early Melanoma,MEL68 A1,Cell Lineage CyCIF Panel,Human,F,64,superficial spreading,Y,right upper arm,IV,,"present, nonbrisk",0.4,punch,FFPE,Rarecyte HT66,20×/0.75 NA objective with no pixel binning,MEL68 A1
+Early Melanoma,MEL68 B1,Cell Lineage CyCIF Panel,Human,M,64,melanoma in situ,Y,central neck,IV,T2a,N/A,,punch,FFPE,Rarecyte HT67,20×/0.75 NA objective with no pixel binning,MEL68 B1
+Early Melanoma,MEL69-A1,Cell Lineage CyCIF Panel,Human,M,38,superficial spreading,N,left posterior shoulder,IV,T2a,"present, nonbrisk",1.1,punch,FFPE,Rarecyte HT68,20×/0.75 NA objective with no pixel binning,MEL69
+Early Melanoma,MEL50-A3,Cell Lineage CyCIF Panel,Human,F,38,superficial spreading,N,left abdomen,IV,,"present, nonbrisk",0.64,excision,FFPE,Rarecyte HT50,20×/0.75 NA objective with no pixel binning,MEL50
