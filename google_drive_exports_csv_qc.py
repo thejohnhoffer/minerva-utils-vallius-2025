@@ -666,17 +666,6 @@ if __name__ == "__main__":
     #args = parser.parse_args()
     #command = args.command
     command = sys.argv[1] or "test"
-    """
-    # python google_drive_exports_csv_qc.py cp_tif 1> step0_on_transfer.sh
-    # python google_drive_exports_csv_qc.py copy 1> step1_on_login.sh
-    # python google_drive_exports_csv_qc.py transfer 1> step3_on_transfer.sh
-    # python google_drive_exports_csv_qc.py cp_output 1> step4_anywhere.sh
-    # python google_drive_exports_csv_qc.py json
-    bash step0_on_transfer.sh
-    bash step1_on_login.sh
-    bash step2_on_transfer.sh
-    bash step3_anywhere.sh
-    """
 
     if command == "cp_tif":
         unique_dirs = sorted(set(
@@ -712,11 +701,11 @@ if __name__ == "__main__":
         elif command == "masks":
             print(f'cp ')
         elif command == "copy":
-            print(f'bash copy.bash "{url_root}" "{identifier}" "{sample}"')
+            print(f'bash copy.sh "{url_root}" "{identifier}" "{sample}"')
         elif command == "transfer":
-            print(f'bash transfer.bash "{url_root}" "{identifier}"')
+            print(f'bash transfer.sh "{url_root}" "{identifier}"')
         elif command == "cp_output":
-            print(f'bash website.bash "{url_root}" "{identifier}"')
+            print(f'bash website.sh "{url_root}" "{identifier}"')
 
     debug_keys = [
     ]
