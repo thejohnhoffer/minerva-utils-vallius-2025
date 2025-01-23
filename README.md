@@ -1,4 +1,5 @@
 Generate the shell commands and json files
+On a transfer node
 
 ```
 python google_drive_exports_csv_qc.py cp_tif 1> step0_on_transfer.sh
