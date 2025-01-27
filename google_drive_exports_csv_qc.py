@@ -76,6 +76,14 @@ class Metadata:
 '''
 
 
+class ROIInput:
+
+    def __init__(self, roi_kind, roi_folder, roi_path):
+        self.roi_kind = roi_kind
+        self.roi_folder = roi_folder
+        self.roi_path = roi_path
+
+
 class Groups:
 
     def __init__(self, groups):
@@ -93,7 +101,8 @@ class Story:
 
     def __init__(
         self, identifier, case, block, slide,
-        url_root, in_path, assay, groups, metadata
+        url_root, in_path, assay, groups,
+        metadata, roi_inputs
     ):
         self.identifier = identifier
         self.url_root = url_root
@@ -104,6 +113,7 @@ class Story:
         self.assay = assay
         self.groups = groups
         self.metadata = metadata
+        self.roi_inputs = roi_inputs
 
 
     def out_path(self, SCRATCH, DATE, key):
@@ -129,6 +139,7 @@ class Story:
             f"    assay='{self.assay}'\n"
             f"    groups='{self.groups}'\n"
             f"    metadata='{self.metadata}'\n"
+            f"    roi_inputs='{len(self.roi_inputs)}'\n"
             ")"
         )
 
@@ -167,7 +178,7 @@ class Plan:
                     assert "marker_name" in line.keys()
                     name_id_map[line["marker_name"]] = index
         except FileNotFoundError:
-            raise NormalizationError("missing markers")
+            raise NormalizationError(f'missing markers file "{self.in_path_markers}"')
         except AssertionError:
             raise NormalizationError("invalid markers")
 
@@ -313,11 +324,11 @@ def normalize_path(v, in_root, out_root):
     }
     try:
         v = Path(v).relative_to(in_root)
-        if (str(v.parent) in known_typos):
-            v = known_typos[str(v.parent)] / v.name
-        return Path(out_root) / v 
     except ValueError:
-        pass
+        return None 
+    if (str(v.parent) in known_typos):
+        v = known_typos[str(v.parent)] / v.name
+    return Path(out_root) / v 
 
 
 class NormalizationError(Exception):
@@ -342,6 +353,8 @@ def normalize_value(k, v, assay):
         "MEL36 A1", "MEL36 A2", "MEL55 A2", "MEL68 A1", "MEL68 B1"
     }
     if key == "identifier":
+        if v == "MEL79-C10":
+            v = "MEL79-B10"
         if v == "MEL85/MEL86-A1/A1":
             v = "MEL85_MEL86-A1_A1"
         if v in known_typos:
@@ -367,11 +380,6 @@ def normalize_value(k, v, assay):
         if assay == "H&E":
             o2_path = normalize_path(
                 v, "/Volumes/hms/hits/lsp/collaborations/",
-                "/n/standby/hms/hits/lsp/collaborations/"
-            )
-        if assay == "H&E" and not o2_path:
-            o2_path = normalize_path(
-                v, "/Volumes/HITS/lsp-data/",
                 "/n/standby/hms/hits/lsp/collaborations/"
             )
         if not o2_path:
@@ -405,12 +413,16 @@ def normalize_value(k, v, assay):
 
 def normalize_line(line_dict, assay, unfixable):
     try:
-        return {
+        line = {
             normalize_key(k): normalize_value(
                 k, v, assay
             )
             for k,v in line_dict.items() 
         }  
+        if line["identifier"] == "MEL79-B10":
+            if line["block"] == "C10":
+                line["block"] = "B10"
+        return line
     except FolderAccessError as e:
         unfixable["folders"].add(str(e))
         unfixable["n"] += 1
@@ -426,19 +438,21 @@ def normalize_line(line_dict, assay, unfixable):
 
 
 
-def validate_rois():
+def validate_rois(roi_csv_path):
     roi_keys = (
         'Height', 'Id', 'Name',
         'RadiusX', 'RadiusY', 'Text', 'Width', 'X', 'Y',
         'all_points', 'all_transforms', 'type'
-    ) 
+    )
     with open(roi_csv_path, newline='', encoding='utf-8-sig') as f:
         for _,line in zip([0],csv.DictReader(f)):
             if tuple(sorted(line.keys())) != roi_keys:
                 assert False # TODO
 
 
-def plan_qc(plan_path, plan, unfixable):
+def plan_qc(
+    plan_path, plan, unfixable, allow_missing_rois
+):
     assay = plan.assay
     url_root = plan.url_root
     parent = plan_path.parent
@@ -471,18 +485,18 @@ def plan_qc(plan_path, plan, unfixable):
 
     # Load ROIs
     roi_path_dict = defaultdict(dict)
-    roi_path_keys = [
-        (roi_key, roi_path.name) for (roi_key, roi_path)
+    expected_roi_paths = [
+        (roi_kind, roi_path.name) for (roi_kind, roi_path)
         in plan.in_path_rois_all.items()
     ]
-    for roi_key, roi_path in plan.in_path_rois_all.items():
+    for roi_kind, roi_path in plan.in_path_rois_all.items():
         for roi_csv_path in glob.glob(str(roi_path / "LSP*.csv")):
             slide_id = match("^LSP[0-9]{5}", Path(roi_csv_path).name)
             if not slide_id:
                 logger.error(f'WARNING: Invalid LSP ID in {roi_csv_path}')
             else:
                 roi_path_dict[slide_id.group()][
-                    (roi_key, roi_path.name)
+                    (roi_kind, roi_path.name)
                 ] = Path(roi_csv_path)
 
     with open(plan_path, newline='', encoding='utf-8-sig') as f:
@@ -495,6 +509,23 @@ def plan_qc(plan_path, plan, unfixable):
                 continue
             slide = normalized["slide"]
             identifier = normalized["identifier"]
+            expected_identifier = "-".join([
+                normalized["case"], normalized["block"]
+            ])
+            if not normalized["case"]:
+                unfixable["case"].add(identifier)
+                unfixable["n"] += 1
+                continue
+            if not normalized["block"]:
+                unfixable["block"].add(identifier)
+                unfixable["n"] += 1
+                continue
+            if expected_identifier.replace("/","_") != identifier:
+                unfixable["identifier"].add(
+                    f'{expected_identifier} != {identifier}'
+                )
+                unfixable["n"] += 1
+                continue
             metadata = metadata_dict.get(identifier)
             roi_paths = roi_path_dict[slide]
             if not metadata:
@@ -502,11 +533,11 @@ def plan_qc(plan_path, plan, unfixable):
                 unfixable["metadata"].add(f'{identifier}({assay})')
                 unfixable["n"] += 1
                 continue
-            if len(roi_paths) != len(roi_path_keys):
+            if not allow_missing_rois and len(roi_paths) != len(expected_roi_paths):
                 logger.warning(f'WARNING: Skipping story #{index} in "{plan_path}"')
                 missing_keys = sorted(
-                    roi_folder for (roi_key, roi_folder) 
-                    in set(roi_path_keys) - set(roi_paths.keys())
+                    roi_folder for (roi_kind, roi_folder) 
+                    in set(expected_roi_paths) - set(roi_paths.keys())
                 )
                 for missing_key in missing_keys:
                     unfixable["roi_paths"].add(
@@ -521,6 +552,11 @@ def plan_qc(plan_path, plan, unfixable):
                 slide=slide,
                 url_root=url_root,
                 in_path=normalized["in_path"],
+                roi_inputs=[
+                    ROIInput(roi_kind, roi_folder, roi_path)
+                    for ((roi_kind, roi_folder), roi_path)
+                    in roi_paths.items()
+                ],
                 metadata=Metadata(metadata),
                 groups=groups,
                 assay=assay
@@ -528,13 +564,16 @@ def plan_qc(plan_path, plan, unfixable):
             yield story 
 
 
-def plan_dir_loader(plans, plan_dir, unfixable):
+def plan_dir_loader(
+    plans, plan_dir, unfixable, allow_missing_rois
+):
     yield from (
         story
         for path in plan_dir.iterdir()
         if path.is_file() and path.name in plans 
         for story in plan_qc(
-            path, plans[path.name], unfixable
+            path, plans[path.name], unfixable,
+            allow_missing_rois
         )
     )
 
@@ -646,9 +685,12 @@ if __name__ == "__main__":
     unfixable = {
         "n": 0, "metadata": set(), "roi_paths": set(),
         "files": set(), "folders": set(), "markers": set(),
+        "identifier": set(), "case": set(), "block": set()
     }
+    allow_missing_rois = True
     qc = list(plan_dir_loader(
-        plans, Path("google_drive_exports_csv"), unfixable
+        plans, Path("google_drive_exports_csv"),
+        unfixable, allow_missing_rois
     ))
     unique_urls = set([
         (story.url_root, story.identifier)
@@ -698,17 +740,22 @@ if __name__ == "__main__":
             in_path = story.in_path
             tif_path = story.out_path(SCRATCH, DATE, "tif")
             print(f'cp "{in_path}" "{tif_path}"')
-        elif command == "masks":
-            print(f'cp ')
-        elif command == "copy":
-            print(f'bash copy.sh "{url_root}" "{identifier}" "{sample}"')
+        elif command == "templates":
+            print(f'bash copy_render_template.sh "{url_root}" "{identifier}" "{sample}"')
+            for roi_input in story.roi_inputs:
+                roi_path = roi_input.roi_path
+                print(
+                    f'bash copy_roi_template.sh "{url_root}" "{identifier}" "{sample}" "{roi_path}"'
+                )
+
         elif command == "transfer":
             print(f'bash transfer.sh "{url_root}" "{identifier}"')
         elif command == "cp_output":
             print(f'bash website.sh "{url_root}" "{identifier}"')
 
-    debug_keys = [
-    ]
+    debug_keys = sorted(
+        k for k in unfixable.keys() if k != "n"
+    )
     for debug_key in debug_keys:
         if len(unfixable[debug_key]):
             logger.warning(f'Unable to find {debug_key}:')

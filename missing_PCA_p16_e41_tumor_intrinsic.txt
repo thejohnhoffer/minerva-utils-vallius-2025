@@ -1,5 +1,0 @@
-/n/files/HiTS/lsp-analysis/cycif-production/16-Pre-Cancer-Atlas-for-Melanoma/PCA_p16_e41_tumor_intrinsic/quantified/LSP11762/
-/n/files/HiTS/lsp-analysis/cycif-production/16-Pre-Cancer-Atlas-for-Melanoma/PCA_p16_e41_tumor_intrinsic/quantified/LSP11770/
-/n/files/HiTS/lsp-analysis/cycif-production/16-Pre-Cancer-Atlas-for-Melanoma/PCA_p16_e41_tumor_intrinsic/quantified/LSP11546/registration/
-/n/files/HiTS/lsp-analysis/cycif-production/16-Pre-Cancer-Atlas-for-Melanoma/PCA_p16_e41_tumor_intrinsic/quantified/LSP11570/registration/
-/n/files/HiTS/lsp-analysis/cycif-production/16-Pre-Cancer-Atlas-for-Melanoma/PCA_p16_e41_tumor_intrinsic/quantified/LSP11594/registration/

@@ -35,6 +35,7 @@ Early Melanoma,MEL45-A1,H&E,Human,M,64,superficial spreading,Y,left shoulder,IV,
 Early Melanoma,MEL47-A1,H&E,Human,M,66,superficial spreading,N,left distal upper arm,IV,T2a,"present, nonbrisk",1.6,shave,FFPE,Rarecyte HT47,20×/0.75 NA objective with no pixel binning,MEL47
 Early Melanoma,MEL48-B2,H&E,Human,M,68,superficial spreading,N,left posterior neck,IV,T2a,"present, nonbrisk",1.5,punch,FFPE,Rarecyte HT48,20×/0.75 NA objective with no pixel binning,MEL48
 Early Melanoma,MEL49-A1,H&E,Human,M,64,superficial spreading,Y,left posterior neck,III/IV,T1b,"present, nonbrisk",0.9,punch,FFPE,Rarecyte HT49,20×/0.75 NA objective with no pixel binning,MEL49
+Early Melanoma,MEL51-A1,H&E,Human,F,49,superficial spreading,Y,left dorsal upper arm,IV,,"present, nonbrisk",1,shave,FFPE,Rarecyte HT49,20×/0.75 NA objective with no pixel binning,
 Early Melanoma,MEL52-A1,H&E,Human,F,44,superficial spreading,N,left dorsal upper arm,IV,T1a,"present, nonbrisk",1,shave,FFPE,Rarecyte HT51,20×/0.75 NA objective with no pixel binning,MEL52
 Early Melanoma,MEL53-A2,H&E,Human,F,54,superficial spreading,N,left upper back,IV,T1b,"present, nonbrisk",0.6,punch,FFPE,Rarecyte HT52,20×/0.75 NA objective with no pixel binning,MEL53
 Early Melanoma,MEL54-A3,H&E,Human,M,62,superficial spreading,N,left flank,IV,T2a,"present, nonbrisk",0.8,shave,FFPE,Rarecyte HT53,20×/0.75 NA objective with no pixel binning,MEL54
@@ -55,13 +56,16 @@ Early Melanoma,MEL68 B1,H&E,Human,M,64,melanoma in situ,Y,central neck,IV,T2a,N/
 Early Melanoma,MEL69-A1,H&E,Human,M,38,superficial spreading,N,left posterior shoulder,IV,T2a,"present, nonbrisk",1.1,punch,FFPE,Rarecyte HT68,20×/0.75 NA objective with no pixel binning,MEL69
 Early Melanoma,MEL50-A3,H&E,Human,F,38,superficial spreading,N,left abdomen,IV,,"present, nonbrisk",0.64,excision,FFPE,Rarecyte HT50,20×/0.75 NA objective with no pixel binning,MEL50
 Stage II Melanoma,MEL70-A4,H&E,Human,F,74,N/A,N/A,N/A,N/A,2C,non brisk,15,N/A,FFPE,Rarecyte HT70,20×/0.75 NA objective with no pixel binning,MEL70
-Stage II Melanoma,MEL71,H&E,Human,M,73,N/A,N/A,N/A,N/A,2C,non brisk,7,N/A,FFPE,Rarecyte HT71,20×/0.75 NA objective with no pixel binning,MEL71
-Stage II Melanoma,MEL72,H&E,Human,M,73,N/A,N/A,N/A,N/A,2B,non brisk,16,N/A,FFPE,Rarecyte HT72,20×/0.75 NA objective with no pixel binning,MEL72
+Stage II Melanoma,MEL71-A10,H&E,Human,M,73,N/A,N/A,N/A,N/A,2C,non brisk,7,N/A,FFPE,Rarecyte HT71,20×/0.75 NA objective with no pixel binning,MEL71
+Stage II Melanoma,MEL72-C6,H&E,Human,M,73,N/A,N/A,N/A,N/A,2B,non brisk,16,N/A,FFPE,Rarecyte HT72,20×/0.75 NA objective with no pixel binning,MEL72
 Stage II Melanoma,MEL73-E11,H&E,Human,F,52,N/A,N/A,N/A,N/A,2C,brisk,2.7,N/A,FFPE,Rarecyte HT73,20×/0.75 NA objective with no pixel binning,MEL73
 Stage II Melanoma,MEL74-B7,H&E,Human,F,78,N/A,N/A,N/A,N/A,2C,non brisk,5.4,N/A,FFPE,Rarecyte HT74,20×/0.75 NA objective with no pixel binning,MEL74
 Stage II Melanoma,MEL75-A3,H&E,Human,M,86,N/A,N/A,N/A,N/A,2C,absent,4.2,N/A,FFPE,Rarecyte HT75,20×/0.75 NA objective with no pixel binning,MEL75
 Stage II Melanoma,MEL76-C10,H&E,Human,M,76,N/A,N/A,N/A,N/A,2A,non brisk,3.2,N/A,FFPE,Rarecyte HT76,20×/0.75 NA objective with no pixel binning,MEL76
+Stage II Melanoma,MEL77-A3,H&E,Human,M,78,melanoma in situ,N,Left ear,IV/V,2A,"Present, nonbrisk",2.8,Wide excision,FFPE,Rarecyte HT49,20×/0.75 NA objective with no pixel binning,
 Stage II Melanoma,MEL78-A4,H&E,Human,F,84,N/A,N/A,N/A,N/A,2A,non brisk,2.5,N/A,FFPE,Rarecyte HT78,20×/0.75 NA objective with no pixel binning,MEL78
+Stage II Melanoma,MEL79-B10,H&E,Human,M,72,melanoma,Y,Right posterior neck/scalp,V,2B,N/A,7.1,Wide excision,FFPE,Rarecyte HT49,20×/0.75 NA objective with no pixel binning,
+Stage II Melanoma,MEL80-A4,H&E,Human,M,72,malignant melanoma ,Y,Left lower eyelid,N/A,2A,N/A,3,Wide excision,FFPE,,,
 Stage II Melanoma,MEL81-B5,H&E,Human,F,55,N/A,N/A,N/A,N/A,2A,non brisk,2.2,N/A,FFPE,Rarecyte HT81,20×/0.75 NA objective with no pixel binning,MEL81
 Stage II Melanoma,MEL82-D10,H&E,Human,M,74,N/A,N/A,N/A,N/A,2B,non brisk,9,N/A,FFPE,Rarecyte HT82,20×/0.75 NA objective with no pixel binning,MEL82
 Stage II Melanoma,MEL83-A11,H&E,Human,M,68,N/A,N/A,N/A,N/A,2B,non brisk,4.8,N/A,FFPE,Rarecyte HT83,20×/0.75 NA objective with no pixel binning,MEL83
@@ -123,8 +127,8 @@ Early Melanoma,MEL68 B1,Tumor Intrinsic CycIF Panel,Human,M,64,melanoma in situ,
 Early Melanoma,MEL69-A1,Tumor Intrinsic CycIF Panel,Human,M,38,superficial spreading,N,left posterior shoulder,IV,T2a,"present, nonbrisk",1.1,punch,FFPE,Rarecyte HT68,20×/0.75 NA objective with no pixel binning,MEL69
 Early Melanoma,MEL50-A3,Tumor Intrinsic CycIF Panel,Human,F,38,superficial spreading,N,left abdomen,IV,,"present, nonbrisk",0.64,excision,FFPE,Rarecyte HT50,20×/0.75 NA objective with no pixel binning,MEL50
 Stage II Melanoma,MEL70-A4,Tumor Intrinsic CycIF Panel,Human,F,74,N/A,N/A,N/A,N/A,2C,non brisk,15,N/A,FFPE,Rarecyte HT70,20×/0.75 NA objective with no pixel binning,MEL70
-Stage II Melanoma,MEL71,Tumor Intrinsic CycIF Panel,Human,M,73,N/A,N/A,N/A,N/A,2C,non brisk,7,N/A,FFPE,Rarecyte HT71,20×/0.75 NA objective with no pixel binning,MEL71
-Stage II Melanoma,MEL72,Tumor Intrinsic CycIF Panel,Human,M,73,N/A,N/A,N/A,N/A,2B,non brisk,16,N/A,FFPE,Rarecyte HT72,20×/0.75 NA objective with no pixel binning,MEL72
+Stage II Melanoma,MEL71-A10,Tumor Intrinsic CycIF Panel,Human,M,73,N/A,N/A,N/A,N/A,2C,non brisk,7,N/A,FFPE,Rarecyte HT71,20×/0.75 NA objective with no pixel binning,MEL71
+Stage II Melanoma,MEL72-C6,Tumor Intrinsic CycIF Panel,Human,M,73,N/A,N/A,N/A,N/A,2B,non brisk,16,N/A,FFPE,Rarecyte HT72,20×/0.75 NA objective with no pixel binning,MEL72
 Stage II Melanoma,MEL73-E11,Tumor Intrinsic CycIF Panel,Human,F,52,N/A,N/A,N/A,N/A,2C,brisk,2.7,N/A,FFPE,Rarecyte HT73,20×/0.75 NA objective with no pixel binning,MEL73
 Stage II Melanoma,MEL74-B7,Tumor Intrinsic CycIF Panel,Human,F,78,N/A,N/A,N/A,N/A,2C,non brisk,5.4,N/A,FFPE,Rarecyte HT74,20×/0.75 NA objective with no pixel binning,MEL74
 Stage II Melanoma,MEL75-A3,Tumor Intrinsic CycIF Panel,Human,M,86,N/A,N/A,N/A,N/A,2C,absent,4.2,N/A,FFPE,Rarecyte HT75,20×/0.75 NA objective with no pixel binning,MEL75

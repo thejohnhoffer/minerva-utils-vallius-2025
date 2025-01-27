@@ -1,10 +1,11 @@
 DATE="2024-12-16"
+mkdir "roi"
 
-create_exhibit () {
+copy_roi_template () {
   url_root="$1"
   identifier="$2"
   sample="$3"
-  mkdir "render"
+  roi_file="$4"
 
   JSON="/home/${USER}/${DATE}/json/${url_root}/${identifier}.story.json"
 
@@ -15,7 +16,8 @@ create_exhibit () {
   echo "URL_ROOT=\"${url_root}\"" >> "$RENDER_FILE"
   echo "IDENTIFIER=\"${identifier}\"" >> "$RENDER_FILE"
   echo "SAMPLE=\"${sample}\"" >> "$RENDER_FILE"
-  cat templates/render_template.sh >> "$RENDER_FILE"
+  echo "ROI_FILE=\"${roi_file}\"" >> "$RENDER_FILE"
+  cat templates/roi_template.sh >> "$RENDER_FILE"
 }
 
-create_exhibit $1 $2 $3
+copy_roi_template $1 $2 $3 $4

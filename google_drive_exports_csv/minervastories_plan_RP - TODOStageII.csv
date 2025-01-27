@@ -1,8 +1,8 @@
 Experiment,slide,case,block,section,case-block-section,Path to McMicro
 Stage II tumor intrinsic (p135 e9),LSP13078,MEL70,A4,5,MEL70-A4,/Volumes/HITS/lsp-analysis/cycif-production/135-stage2-recurrence/p135e9_PCA2/LSP13078/registration/*.ome.tif
 ,LSP13102,MEL73,E11,5,MEL73-E11,/Volumes/HITS/lsp-analysis/cycif-production/135-stage2-recurrence/p135e9_PCA2/LSP13078/registration/*.ome.tif
-,LSP13179,MEL71,,3,MEL71,/Volumes/HITS/lsp-analysis/cycif-production/135-stage2-recurrence/p135e9_PCA2/LSP13179/registration/*.ome.tif
-,LSP13186,MEL72,,3,MEL72,/Volumes/HITS/lsp-analysis/cycif-production/135-stage2-recurrence/p135e9_PCA2/LSP13186/registration/*.ome.tif
+,LSP13179,MEL71,A10,3,MEL71-A10,/Volumes/HITS/lsp-analysis/cycif-production/135-stage2-recurrence/p135e9_PCA2/LSP13179/registration/*.ome.tif
+,LSP13186,MEL72,C6,3,MEL72-C6,/Volumes/HITS/lsp-analysis/cycif-production/135-stage2-recurrence/p135e9_PCA2/LSP13186/registration/*.ome.tif
 ,LSP15120,MEL74,B7,6,MEL74-B7,/Volumes/HITS/lsp-analysis/cycif-production/135-stage2-recurrence/p135e9_PCA2/LSP15120/registration/*.ome.tif
 ,LSP15129,MEL75,A3,6,MEL75-A3,/Volumes/HITS/lsp-analysis/cycif-production/135-stage2-recurrence/p135e9_PCA2/LSP15129/registration/*.ome.tif
 ,LSP15138,MEL76,C10,6,MEL76-C10,/Volumes/HITS/lsp-analysis/cycif-production/135-stage2-recurrence/p135e9_PCA2/LSP15138/registration/*.ome.tif
