@@ -79,8 +79,11 @@ class Metadata:
 class ROIInput:
 
     def __init__(self, roi_kind, roi_folder, roi_path):
-        self.roi_kind = roi_kind
+        self.roi_suffix = (
+            roi_kind.replace("&","").lower() + "-roi"
+        )
         self.roi_folder = roi_folder
+        self.roi_kind = roi_kind
         self.roi_path = roi_path
 
 
@@ -114,6 +117,18 @@ class Story:
         self.groups = groups
         self.metadata = metadata
         self.roi_inputs = roi_inputs
+
+
+    def out_roi_path(self, SCRATCH, DATE, key, roi_input):
+        sample = self.slide
+        in_path = self.in_path
+        url_root = self.url_root
+        identifier = self.identifier
+        csv_dir = SCRATCH / DATE / key
+        roi_suffix = roi_input.roi_suffix
+        return Path(
+            csv_dir / url_root / identifier / roi_suffix / f"{sample}.csv"
+        )
 
 
     def out_path(self, SCRATCH, DATE, key):
@@ -743,9 +758,17 @@ if __name__ == "__main__":
         elif command == "templates":
             print(f'bash copy_render_template.sh "{url_root}" "{identifier}" "{sample}"')
             for roi_input in story.roi_inputs:
+                out_roi_path = story.out_roi_path(SCRATCH, DATE, "roi_csv", roi_input)
+                roi_suffix = roi_input.roi_suffix
                 roi_path = roi_input.roi_path
                 print(
-                    f'bash copy_roi_template.sh "{url_root}" "{identifier}" "{sample}" "{roi_path}"'
+                    f'mkdir -p "{out_roi_path.parent}"'
+                )
+                print(
+                    f'cp "{roi_path}" "{out_roi_path}"'
+                )
+                print(
+                    f'bash copy_roi_template.sh "{url_root}" "{identifier}" "{sample}" "{out_roi_path}" "{roi_suffix}"'
                 )
 
         elif command == "transfer":

@@ -15,8 +15,8 @@ Run the resulting shell commands and schedule jobs.
 bash step0_on_transfer.sh
 bash step1_on_transfer.sh
 
-for f in roi/*.bash; do sbatch ${f}; done;
-for f in render/*.bash; do sbatch ${f}; done;
+for f in render/stage_ii_p135*; do sbatch ${f}; done;
+for f in roi/stage_ii_p135*; do sbatch ${f}; done;
 ```
 
 Wait for slurm jobs to complete and run shell commands.

@@ -1,7 +1,5 @@
-
-module load miniconda3
 eval "$(conda shell.bash hook)"
-conda activate deform
+conda activate svg
 which python
 
 BUCKET="www.cycif.org"
@@ -17,9 +15,9 @@ create_roi_tiff () {
   OUT_DIR="${SCRATCH}/${DATE}/${PAPER}/${url_root}/${identifier}"
   IMG="${SCRATCH}/${DATE}/tif/${url_root}/${identifier}/${sample}.ome.tif"
 
-  # TODO remove preview flag
-  python $SCRIPT --preview --out-dir="${OUT_DIR}" --img-path="${IMG}" --roi-path="${roi_file}"
-  #python $SCRIPT --out-dir="${OUT_DIR}" --img-path="${IMG}" --roi-path="${roi_file}"
+  # preview flag
+  # python $SCRIPT --preview --out-dir="${OUT_DIR}" --img-path="${IMG}" --roi-path="${roi_file}"
+  python $SCRIPT --out-dir="${OUT_DIR}" --img-path="${IMG}" --roi-path="${roi_file}"
 }
 
 create_roi_tiff "${URL_ROOT}" "${IDENTIFIER}" "${SAMPLE}" "${ROI_FILE}"

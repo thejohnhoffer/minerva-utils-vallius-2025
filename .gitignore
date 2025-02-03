@@ -2,3 +2,5 @@ deform-registration-stic
 *.swp
 tmp.err
 slurm-*
+roi
+render

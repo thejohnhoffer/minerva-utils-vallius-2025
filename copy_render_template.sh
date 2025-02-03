@@ -1,5 +1,5 @@
 DATE="2024-12-16"
-mkdir "render"
+mkdir -p "render"
 
 copy_render_template () {
   url_root="$1"
@@ -18,4 +18,4 @@ copy_render_template () {
   cat templates/render_template.sh >> "$RENDER_FILE"
 }
 
-copy_render_template $1 $2 $3
+copy_render_template "$1" "$2" "$3"
