@@ -1,3 +1,16 @@
+#!/bin/bash
+#SBATCH -c 4
+#SBATCH -p short
+#SBATCH --mem 4g
+#SBATCH -e slurm-%A_%a.err
+#SBATCH -o slurm-%A_%a.out
+#SBATCH -t 4:00:00
+#SBATCH --array=0-0
+DATE="2024-12-16"
+URL_ROOT="early_melanoma_cell_lineage_e24"
+IDENTIFIER="MEL16-A6"
+SAMPLE="LSP11331"
+ROI_FILE="/n/files/HiTS/lsp-analysis/cycif-production/16-Pre-Cancer-Atlas-for-Melanoma/minerva_stories2024/e24_geomx_coordinates/LSP11331.ome.tif-1677228-rois.csv"
 
 module load miniconda3
 eval "$(conda shell.bash hook)"

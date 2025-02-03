@@ -9,7 +9,7 @@ copy_roi_template () {
 
   JSON="/home/${USER}/${DATE}/json/${url_root}/${identifier}.story.json"
 
-  RENDER_FILE="render/${url_root}__${identifier}.bash"
+  RENDER_FILE="roi/${url_root}__${identifier}.bash"
   cp templates/sbatch_template.sh "$RENDER_FILE"
   echo "#SBATCH --array=0-0" >> "$RENDER_FILE"
   echo "DATE=\"${DATE}\"" >> "$RENDER_FILE"
