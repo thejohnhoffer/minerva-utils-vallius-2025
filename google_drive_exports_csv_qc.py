@@ -745,7 +745,7 @@ if __name__ == "__main__":
                             "label": roi_input.roi_suffix,
                             "channels": [{
                                 "color": "ffffff",
-                                "label": roi_input.roi_kind
+                                "label": f"{roi_input.roi_kind} Annotations"
                             }]
                         }
                         for roi_input in story.roi_inputs

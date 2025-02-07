@@ -4,4 +4,4 @@
 #SBATCH --mem 4g
 #SBATCH -e slurm-%A_%a.err
 #SBATCH -o slurm-%A_%a.out
-#SBATCH -t 2:00:00
+#SBATCH -t 1:00:00
