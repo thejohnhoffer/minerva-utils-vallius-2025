@@ -6,11 +6,11 @@ copy_roi_template () {
   identifier="$2"
   sample="$3"
   roi_file="$4"
-  roi_kind="$5"
+  roi_suffix="$5"
 
   JSON="/home/${USER}/${DATE}/json/${url_root}/${identifier}.story.json"
 
-  RENDER_FILE="roi/${url_root}__${identifier}__${roi_kind}.bash"
+  RENDER_FILE="roi/${url_root}__${identifier}__${roi_suffix}.bash"
 
   cp templates/sbatch_template.sh "$RENDER_FILE"
   echo "#SBATCH --array=0-0" >> "$RENDER_FILE"
@@ -19,6 +19,7 @@ copy_roi_template () {
   echo "IDENTIFIER=\"${identifier}\"" >> "$RENDER_FILE"
   echo "SAMPLE=\"${sample}\"" >> "$RENDER_FILE"
   echo "ROI_FILE=\"${roi_file}\"" >> "$RENDER_FILE"
+  echo "ROI_SUFFIX=\"${roi_suffix}\"" >> "$RENDER_FILE"
   cat templates/roi_template.sh >> "$RENDER_FILE"
 }
 

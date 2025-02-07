@@ -12,7 +12,8 @@ create_roi_tiff () {
   identifier="$2"
   sample="$3"
   roi_file="$4"
-  OUT_DIR="${SCRATCH}/${DATE}/${PAPER}/${url_root}/${identifier}"
+  roi_suffix="$5"
+  OUT_DIR="${SCRATCH}/${DATE}/${PAPER}/${url_root}/${identifier}/${roi_suffix}"
   IMG="${SCRATCH}/${DATE}/tif/${url_root}/${identifier}/${sample}.ome.tif"
 
   # preview flag
@@ -20,4 +21,4 @@ create_roi_tiff () {
   python $SCRIPT --out-dir="${OUT_DIR}" --img-path="${IMG}" --roi-path="${roi_file}"
 }
 
-create_roi_tiff "${URL_ROOT}" "${IDENTIFIER}" "${SAMPLE}" "${ROI_FILE}"
+create_roi_tiff "${URL_ROOT}" "${IDENTIFIER}" "${SAMPLE}" "${ROI_FILE}" "${ROI_SUFFIX}"

@@ -9,6 +9,8 @@ transfer_story () {
   CMD="s3 sync --acl public-read --storage-class INTELLIGENT_TIERING $DIR $URL"
   echo "aws $CMD"
   aws $CMD
+  # Prompt the user before removing!
+  rm -r $DIR
 }
 
 transfer_story

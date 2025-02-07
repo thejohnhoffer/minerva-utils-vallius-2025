@@ -740,7 +740,16 @@ if __name__ == "__main__":
             json_root.mkdir(parents=True, exist_ok=True)
             with open(json_root / f"{identifier}.story.json", "w") as wf:
                 json_config = {
-                    "masks": [], # TODO
+                    "masks": [
+                        {
+                            "label": roi_input.roi_suffix,
+                            "channels": [{
+                                "color": "ffffff",
+                                "label": roi_input.roi_kind
+                            }]
+                        }
+                        for roi_input in story.roi_inputs
+                    ],
                     "waypoints": [],
                     "groups": story.groups.groups,
                     "sample_info": {
