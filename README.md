@@ -39,6 +39,11 @@ for f in roi/early_melanoma_cell*; do sbatch ${f}; done;
 bash transfer_and_delete.sh
 ```
 
+On a transfer node:
+```
+aws s3 sync s3://www.cycif.org/vallius-2025/ /n/scratch/users/j/jth30/2024-12-16/vallius-2025 --exclude "*" --include "*.json"
+```
+
 Wait for slurm jobs to complete and run shell commands.
 
 ```

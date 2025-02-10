@@ -4,7 +4,7 @@
 #SBATCH --mem 4g
 #SBATCH -e slurm-%A_%a.err
 #SBATCH -o slurm-%A_%a.out
-#SBATCH -t 1:00:00
+#SBATCH -t 3:00:00
 #SBATCH --array=0-0
 DATE="2024-12-16"
 URL_ROOT="early_melanoma_tumor_intrinsic_e41"
